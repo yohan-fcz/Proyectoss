@@ -1,0 +1,15 @@
+C:\Users\Yohan Suaza\Desktop\jc\bin\Debug\net7.0\jc.exe
+C:\Users\Yohan Suaza\Desktop\jc\bin\Debug\net7.0\jc.deps.json
+C:\Users\Yohan Suaza\Desktop\jc\bin\Debug\net7.0\jc.runtimeconfig.json
+C:\Users\Yohan Suaza\Desktop\jc\bin\Debug\net7.0\jc.dll
+C:\Users\Yohan Suaza\Desktop\jc\bin\Debug\net7.0\jc.pdb
+C:\Users\Yohan Suaza\Desktop\jc\obj\Debug\net7.0\jc.csproj.AssemblyReference.cache
+C:\Users\Yohan Suaza\Desktop\jc\obj\Debug\net7.0\jc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yohan Suaza\Desktop\jc\obj\Debug\net7.0\jc.AssemblyInfoInputs.cache
+C:\Users\Yohan Suaza\Desktop\jc\obj\Debug\net7.0\jc.AssemblyInfo.cs
+C:\Users\Yohan Suaza\Desktop\jc\obj\Debug\net7.0\jc.csproj.CoreCompileInputs.cache
+C:\Users\Yohan Suaza\Desktop\jc\obj\Debug\net7.0\jc.dll
+C:\Users\Yohan Suaza\Desktop\jc\obj\Debug\net7.0\refint\jc.dll
+C:\Users\Yohan Suaza\Desktop\jc\obj\Debug\net7.0\jc.pdb
+C:\Users\Yohan Suaza\Desktop\jc\obj\Debug\net7.0\jc.genruntimeconfig.cache
+C:\Users\Yohan Suaza\Desktop\jc\obj\Debug\net7.0\ref\jc.dll
