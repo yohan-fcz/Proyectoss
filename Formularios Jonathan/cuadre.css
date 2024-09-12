@@ -1,0 +1,92 @@
+.item
+{
+    background-color: rgb(244, 158, 198);
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.collapse
+{
+    border-collapse: collapse;
+    border: 1px solid rgb(0, 0, 0);
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+th, td
+{
+    border: 1px solid #595858;
+}
+
+th
+{
+   background-color: rgb(244, 158, 198);
+}
+
+.item, .documento
+{
+    text-align: center;
+}
+
+.Nombre_completo
+{
+    text-align: justify;
+}
+
+table th:hover, 
+table tr:hover
+{
+    cursor: pointer;
+    background-color: #a9a9a9;
+}
+
+table td:hover
+{
+    background-color:rgb(247, 114, 176);
+    color: #fff;
+    outline: 2px solid #a9a9a9;
+    border-radius: 3px;
+}
+
+.separate
+{
+    border-collapse: separate;
+    border-spacing: 8,5;
+    border: 1px solid #595858;
+    border-radius: 11px #000000;
+    margin: 10px 0px 0px 10px;
+}
+
+.separate th:first-child
+{
+    border-top-left-radius: 10px;
+}
+
+.separate th:last-child
+{
+    border-top-right-radius: 10px;
+}
+
+.separate tr:last-child td :first-child
+{
+    border-bottom-left-radius: 10px;
+}
+
+.separate tr:last-child td:first-child
+{
+    border-bottom-right-radius: 10px;
+}
+
+h1
+
+{
+display: block;
+transition: all 0.3s ease;
+color: yellow;
+transform: scale(1.1);
+}

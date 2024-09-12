@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <!-- El fore indica que es un formulario (Información deligenciada por un usuario o un administrador) -->
+    <!-- Action indica una conexión a una base de datos -->
+    <form action="#" method="#" style="border: 2px solid; width: 45%;">
+        <h2>Formulario</h2>
+        <!-- Relaciona el input con el label -->
+        <!-- La etiqueta for  -->
+        <label for="nombre-1">Primer Nombre</label>
+        <input type="text" placeholder="Primer nombre" id="nombre-1" name="nombre" size="150"> 
+        <!-- Los label y los input tienen atributos como (type, placeholder, id, value)-->
+        <label for="nombre-2">Segundo Nombre</label>
+        <input type="text" placeholder="Segundo nombre" id="nombre-2" name="nombre-2" size="24">
+        <label for="Apellido-1">Primer apellido</label>
+        <input type="text" placeholder="Primer apellido" id="Apellido-1" name="Apellido-1" size="21">
+        <label for="Apellido-2">Segundo apellido</label>
+        <input type="text" placeholder="Segundo apellido" id="Apellido-2" name="Apellido-2" size="21">
+        <label for="fecha-nacimiento">Fecha de nacimiento</label>
+        <input type="date" placeholder="Fecha de nacimiento" id="fecha-nacimiento" name="fecha-nacimiento" size="22">
+        <label for="Pais-nacimiento">Pais de nacimiento</label>
+        <select name="País-nacimiento" id="País-nacimiento">
+            <option value="#">Seleccionar país</option>
+            <option value="Colombia">Colombia</option>
+            <option value="Venezuela">Venezuela</option>
+            <option value="Chile">Chile</option>
+            <option value="Ecuador">Ecuador</option>
+            <option value="Argentina">Argentina</option>
+            <option value="México">México</option>
+            <option value="Uruguay">Uruguay</option>
+            <option value="Puerto rico">Puerto rico</option>
+            <option value="Perú">Perú</option>
+            <option value="Paraguay">Paraguay</option>
+            <option value="Bolivia">Bolivia</option>
+            <option value="Panáma">Panáma</option>
+        </select>
+        <label for="Indica-género">Indica tu género</label>
+        <input type="radio" name="indicar-género" value="Masculino">Masculino
+        <input type="radio" name="indicar-género" value="Femenino">Femenino
+        <label for="dirección">Dirección de residencia</label>
+        <input type="text" placeholder="Dirección de residencia" id="dirección" name="dirección" size="30"><br><br>
+        <label for="email">Correo electrónico</label>
+        <input type="email" placeholder="Correo electrónico" id="email" name="email" size="28">
+        <label for="telefono">Telefono</label>
+        <input type="number" placeholder="Ingresar su número de tel" id="telefono" name="telefono">
+        <label for="msg">Mensaje</label>
+        <textarea name="msg" id="msg" cols="76" rows="5" placeholder="Escribe algo..."></textarea>
+        <button type="submit" id="enviar" name="enviar" style="width: 10%">Enviar</style></button>
+    </form>
+</body>
+</html>
