@@ -1,0 +1,477 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;   
+}
+
+.Armas
+{
+    color: #fd5d47;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.nuevo
+{
+    color: rgb(0, 190, 0);
+}
+
+.header-3
+{
+    background-image: url(img/mapa-inicio.jpeg);
+    background-position: center top 10px;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.header-2
+{
+    background-image: url(img/valorant2.jpeg);
+    background-position: center top 10px;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: sticky;
+}
+
+header
+{
+    background-image: url(img/valorant-arriba.jpg);
+    background-position: center top 25px;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+
+.container
+{
+    max-width: 1100px;
+    margin: 0 auto;
+    text-transform: none;
+}
+
+.menu
+{
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.menu
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999; 
+}
+
+.menu .logo
+{
+    font-weight: 700;
+    font-size: 25px;
+    color: red;
+    margin-left: 10px;
+    transition: all 0.3s ease;
+}
+
+.menu .logo:hover
+{
+    color: #fd5d47;
+    transform: scale(1.1);
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.menu nav ul
+{
+    list-style: none;
+}
+
+.menu nav ul li
+{
+    position: relative;
+    float: left;
+}
+
+nav ul li a
+{
+    position: sticky;
+}
+
+.menu nav ul li a
+{
+    font-size: 18px;
+    padding: 20px;
+    display: block;
+    color: white;
+    transition: all 0.4s ease;
+}
+
+.menu-icono:hover, .menu nav ul li a:hover
+{
+    color: #ff0000;
+    transform: scale(1.2);
+}
+
+#menu
+{
+    display: none;
+}
+
+.menu-icono
+{
+    width: 25px;
+}
+
+.menu label
+{
+    cursor: pointer;
+    display: none;
+}
+
+.header-text a
+{
+    display: inline-block;
+    background-color: #fd5d47;
+    margin-top: 300px;
+    padding: 15px 25px;
+    border: 0.1em solid #aaabaf;
+    color: white;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.header-text
+{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.header-text h1
+{
+    color: #ffffff;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 500px;
+    font-family:fantasy;
+}
+
+.header-text p
+{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family:fantasy
+}
+
+.btn-1
+{
+    display: inline-block;
+    background-color:   rgb(255, 91, 91);
+    margin-top: 50px;
+    padding: 15px 25px;
+    border: 0.1em solid #aaabaf;
+    color: white;
+    border-radius: 30px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.header-text .btn-1
+{
+    background-color: red;
+    border-color:  #aaabaf;
+    border: 1px solid;
+    transform: scale(1.3);
+    transition: all 0.6s ease;
+}
+
+.btn-1:hover
+{
+    background-color: #db4634;
+    border-color:  #aaabaf;
+    border: 1px solid;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.container .group-services .services-Specify
+{
+    margin-bottom: 100px;
+}
+
+.services-General
+{
+    background-color: black;
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+
+.services-General h2
+{
+    font-size: 55px;
+    margin-bottom: 25px;
+    color: #ff0000;
+}
+
+.services-General .txt-1
+{
+    font-size: 18px;
+    padding: 0px 100px;
+    margin-bottom: 55px;
+    text-transform: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.services-General, .group-services
+{
+    display: flex;
+    justify-content: center;
+}
+
+.services-Specify
+{
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.12);
+    padding: 35px 25px;
+    background-color: #2d2f3a;
+}
+
+.services-Specify img
+{
+    width: 50px;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    border-image: none;
+    border-radius: 10px;
+    padding: 5px;
+    transition: all 0.3s ease;
+}
+
+.services-Specify h3
+{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.services-Specify p
+{
+    font-size: 18px;
+}
+
+.services-Specify img:hover
+{
+    color: #fd5d47;
+    transform: scale(1.2);
+}
+
+.portafolio
+{
+    background-color: #dadbdd;
+    padding: 100px 0px;
+    color: #2d2f3a;
+    font-size: 18px;
+}
+
+.g-portafolio
+{
+    display: flex;
+    text-align: justify;
+}
+
+.imgs img 
+{
+    width: 300px;
+    margin: 0px 20px 70px 20px;
+    border-radius: 15px;
+    box-shadow: 0px 1px 15px rgba(1, 1, 1, 0.7);
+}
+
+footer
+{
+    padding: 150px 0px;
+    background-color: #313642;
+}
+
+.ft
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.enlace h3
+{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.enlace li
+{
+    list-style: none;
+}
+.enlace a 
+{
+    color: white;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.enlace form
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-2
+{
+    padding: 10px 25px;
+    border: 0px;
+    border-radius: 10px;
+    bottom: 200px;
+}
+
+.btn-3
+{
+    background-color: #fd5d47;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    left: 100%;
+}
+
+.btn-3:hover
+{
+    border: 1px solid white;
+}
+
+.header-4
+{
+    background-image: url(img/Valorant4.jpeg);
+    background-position: center top 5px;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+
+body  .pp
+{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.collection-header 
+{
+    background-color: #2d2f3a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.collection-title 
+{
+    font-size: 24px;
+}
+
+.collection 
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.collection-item 
+{
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+.collection-image
+{
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.collection-name 
+{
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.collection-description
+{
+    font-size: 14px;
+    color: #777;
+}
+
+.skins
+{
+    background-color: #fd5d47;
+    border-color:  #aaabaf;
+    border: 1px solid;
+    transform: scale(1.3);
+    transition: all 0.6s ease;
+    border: 0.1em solid #aaabaf;
+    color: white;
+    border-radius: 30px;
+    padding: 20px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 600px;
+}
+
+.skins:hover
+{
+    background-color: #42db34;
+    border-color:  #aaabaf;
+    border: 1px solid;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.enlace img
+{
+    width: 50px;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    border-image: none;
+    border-radius: 10px;
+    padding: 5px;
+    transition: all 0.3s ease;
+}
